@@ -2,6 +2,7 @@ import os
 import redis
 from fastapi import FastAPI
 from sqlalchemy import create_engine, text
+from datetime import datetime
 
 app = FastAPI()
 
